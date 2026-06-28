@@ -1,4 +1,4 @@
-# TrafficPulse (formerly Nivaaran.ai)
+# TrafficPulse 
 
 **TrafficPulse** is an advanced, event-driven predictive dispatch and congestion intelligence engine designed for smart city infrastructure (specifically tailored for Bengaluru).
 
