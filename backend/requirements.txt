@@ -1,0 +1,10 @@
+streamlit>=1.35.0
+pandas
+numpy
+scikit-learn
+lightgbm
+xgboost
+plotly
+pydeck
+scipy
+torch
