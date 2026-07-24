@@ -25,7 +25,8 @@ const ARCH_NODES = [
     position: [4, 2, 0],
     color: '#81B29A',
     title: '3. Predictive Ensemble',
-    desc: 'LightGBM, XGBoost, and PyTorch calculate surge index.',
+    desc: 'LightGBM, XGBoost, and TensorFlow/Keras calculate surge index.',
+
   },
   {
     id: 'dispatch',

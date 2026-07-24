@@ -4,3 +4,12 @@ __pycache__/
 .streamlit/
 .ipynb_checkpoints/
 .vscode/
+.DS_Store
+*.log
+pipeline_output.txt
+test_out.txt
+node_modules/
+test_quick.py
+run_quick_test.py
+
+

@@ -1,4 +1,4 @@
-# TrafficPulse 
+# TrafficPulse
 
 **TrafficPulse** is an advanced, event-driven predictive dispatch and congestion intelligence engine designed for smart city infrastructure (specifically tailored for Bengaluru).
 
@@ -15,12 +15,12 @@ The system is broken down into four core computational pillars:
 3. **Predictive Ensemble:** A weighted triad of ML models calculates a real-time `congestion_surge_index`:
    - **LightGBM** (50% weight)
    - **XGBoost** (30% weight)
-   - **PyTorch ResidualMLP** (20% weight)
+   - **TensorFlow/Keras ResidualMLP** (20% weight)
 4. **Dispatch Solver:** Translates the surge index into actionable resource blueprints (e.g., number of barricades, required traffic marshals).
 
 ## 💻 Tech Stack
 
-- **Backend:** Python, FastAPI, Pandas, Scikit-Learn, LightGBM, XGBoost, PyTorch, DBSCAN.
+- **Backend:** Python, FastAPI, Pandas, Scikit-Learn, LightGBM, XGBoost, TensorFlow, Keras, DBSCAN.
 - **Frontend:** React JS (Vite), React Three Fiber & Drei (3D UI), React Leaflet (Interactive Maps), Recharts (Analytics), Lucide React (Icons).
 - **Design System:** Custom Retro Skin-Tone Palette (Vanilla CSS).
 
@@ -34,7 +34,7 @@ TrafficPulse/
 │   ├── backend_engine.py        # Core feature engineering
 │   ├── dispatch_solver.py       # Algorithmic resource allocation
 │   ├── hotspot_clustering.py    # DBSCAN implementation
-│   ├── regression_models.py     # ML model definitions (PyTorch, LGBM, XGB)
+│   ├── regression_models.py     # ML model definitions (TensorFlow/Keras, LGBM, XGB)
 │   └── requirements.txt         # Python dependencies
 ├── data/
 │   ├── model_payload.pkl        # Pre-trained models and scaler weights

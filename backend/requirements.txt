@@ -7,4 +7,5 @@ xgboost
 plotly
 pydeck
 scipy
-torch
+tensorflow
+
