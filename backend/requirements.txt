@@ -1,11 +1,9 @@
-streamlit>=1.35.0
+fastapi
+uvicorn
+pydantic
 pandas
 numpy
 scikit-learn
 lightgbm
 xgboost
-plotly
-pydeck
-scipy
 tensorflow
-
